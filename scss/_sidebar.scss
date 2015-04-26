@@ -1,7 +1,7 @@
 // Side bar
 
 .headInfo{
-	width:250px;
+	width:268px;
 	display:block;
 	margin: 0 auto;
 	margin-top: 35vh;
@@ -20,12 +20,11 @@
 	.socialMedia{
 		margin-top: 15px;
 		.socialItem{
-			width: 3rem;
-			height: 3rem;
-			background-color: black;
-			display: inline-block;
-			margin-right:2rem;
-
+			  width: 3rem;
+			  height: 3rem;
+			  display: inline-block;
+			  margin-right: 0.55rem;
+			  font-size: 2.6rem;
 		}
 	}
 }

@@ -5,10 +5,16 @@ body {
 h1, h2 {
   font-family: "proxima-nova-extra-condensed";
   text-transform: uppercase;
-  font-size: 6rem; }
+  font-size: 7rem; }
+
+.blogList h1 span {
+  font-family: "proxima-nova", arial;
+  font-weight: 300;
+  font-size: 1.2rem;
+  font-style: italic; }
 
 .headInfo {
-  width: 250px;
+  width: 268px;
   display: block;
   margin: 0 auto;
   margin-top: 35vh; }
@@ -26,8 +32,8 @@ h1, h2 {
     .headInfo .socialMedia .socialItem {
       width: 3rem;
       height: 3rem;
-      background-color: black;
       display: inline-block;
-      margin-right: 2rem; }
+      margin-right: 0.55rem;
+      font-size: 2.6rem; }
 
 /*# sourceMappingURL=main.css.map */

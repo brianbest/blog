@@ -5,7 +5,19 @@ body{
  h1,h2{
  	font-family: "proxima-nova-extra-condensed";
  	text-transform: uppercase;
- 	font-size: 6rem;
+ 	font-size: 7rem;
+ }
+
+
+ .blogList{
+ 	h1{
+ 		span{
+ 			font-family: "proxima-nova", arial;
+  			font-weight: 300;
+  			font-size: 1.2rem;
+  			font-style: italic;
+ 		}
+ 	}
  }
 
 
