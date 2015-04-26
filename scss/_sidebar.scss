@@ -1,0 +1,31 @@
+// Side bar
+
+.headInfo{
+	width:250px;
+	display:block;
+	margin: 0 auto;
+	margin-top: 35vh;
+	h1,h3{
+		margin-top: 0;
+		margin-bottom: 0;
+		line-height: 1;
+	}
+	h1{
+		line-height: 0.7;
+	}
+	h3{
+		margin-top: 15px;
+		font-weight: 200;
+	}
+	.socialMedia{
+		margin-top: 15px;
+		.socialItem{
+			width: 3rem;
+			height: 3rem;
+			background-color: black;
+			display: inline-block;
+			margin-right:2rem;
+
+		}
+	}
+}
