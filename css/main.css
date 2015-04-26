@@ -29,6 +29,8 @@ h1, h2 {
     font-weight: 200; }
   .headInfo .socialMedia {
     margin-top: 15px; }
+    .headInfo .socialMedia a {
+      color: #000; }
     .headInfo .socialMedia .socialItem {
       width: 3rem;
       height: 3rem;
