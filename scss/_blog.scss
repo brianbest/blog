@@ -1,6 +1,6 @@
 .blog{
 	h6{
-		margin-top: 4rem;
+		margin-top: 1rem;
 		font-family: "proxima-nova", arial;
   		font-weight: 300;
   		font-style: italic;
@@ -11,8 +11,43 @@
 	
 		margin-bottom: 3rem;
 		text-align: center;
+		text-transform: uppercase;
 	}
 	p{
 		margin: 2rem 0;
+	}
+
+	.closeing{
+		margin-top: 2.5rem;
+		overflow: auto;
+		&:after{
+			clear:both;
+		}
+		.pic{
+			background: url('../img/me.jpg') no-repeat center center; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			border-radius: 100px;
+			height: 10rem;
+			width: 10rem;
+			display: inline-block;
+			float: left;
+		}
+		.about{
+			display: inline-block;
+			overflow: auto;
+			padding-top: 1rem;
+			&:after{
+				clear:both;
+			}
+			h4{
+				margin-left:2.5rem;
+				
+				display: block;
+			}
+		}
+		
 	}
 }

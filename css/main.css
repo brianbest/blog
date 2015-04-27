@@ -8,11 +8,39 @@ h1, h2 {
   text-transform: uppercase;
   font-size: 7rem; }
 
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent; }
+
+.navbar-brand {
+  font-family: "proxima-nova-extra-condensed";
+  text-transform: uppercase;
+  color: #000 !important; }
+
 .blogList h1 span {
   font-family: "proxima-nova", arial;
   font-weight: 300;
   font-size: 1.2rem;
   font-style: italic; }
+
+footer {
+  margin: 2.5rem 0; }
+  footer form {
+    width: 250px;
+    margin: 0 auto;
+    display: block; }
+    footer form input[type="text"] {
+      width: 100%;
+      background-color: #fff;
+      outline: none;
+      border: 1px solid #a6a6a6;
+      border-radius: 5px;
+      margin-bottom: 0.5rem; }
+    footer form input[type="submit"] {
+      width: 100%;
+      background-color: #fff;
+      outline: none;
+      border: 1px solid #a6a6a6; }
 
 .headInfo {
   width: 268px;
@@ -40,7 +68,7 @@ h1, h2 {
       font-size: 2.6rem; }
 
 .blog h6 {
-  margin-top: 4rem;
+  margin-top: 1rem;
   font-family: "proxima-nova", arial;
   font-weight: 300;
   font-style: italic;
@@ -48,8 +76,34 @@ h1, h2 {
   font-size: 1.5rem; }
 .blog .title {
   margin-bottom: 3rem;
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase; }
 .blog p {
   margin: 2rem 0; }
+.blog .closeing {
+  margin-top: 2.5rem;
+  overflow: auto; }
+  .blog .closeing:after {
+    clear: both; }
+  .blog .closeing .pic {
+    background: url("../img/me.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 100px;
+    height: 10rem;
+    width: 10rem;
+    display: inline-block;
+    float: left; }
+  .blog .closeing .about {
+    display: inline-block;
+    overflow: auto;
+    padding-top: 1rem; }
+    .blog .closeing .about:after {
+      clear: both; }
+    .blog .closeing .about h4 {
+      margin-left: 2.5rem;
+      display: block; }
 
 /*# sourceMappingURL=main.css.map */
