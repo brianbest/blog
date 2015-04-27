@@ -36,7 +36,7 @@ footer {
     margin: 0 auto;
     margin-top: 1rem;
     display: block; }
-    footer form input[type="text"] {
+    footer form input[type="email"] {
       width: 100%;
       background-color: #fff;
       outline: none;
