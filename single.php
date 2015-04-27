@@ -4,18 +4,12 @@
 		  <div class="container-fluid">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
 		      <a class="navbar-brand" href="/">Brian Best</a>
 		    </div>
 		  </div><!-- /.container-fluid -->
 		</nav>
 		<div class="row">
-			<div class="col-sm-12 col-md-offset-3 col-md-6 col-lg-offset-4 col-lg-4 blog">
+			<div class="col-sm-12 col-md-offset-3 col-md-6 col-lg-offset-3 col-lg-6 blog">
 				<article>
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					<h6><?php the_time('F jS, Y'); ?></h6>

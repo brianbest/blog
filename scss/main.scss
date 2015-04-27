@@ -18,6 +18,8 @@ body{
  	color:#000!important;
  }
 
+ .navbar-brand { margin-left: auto; margin-right: auto; }
+
  .blogList{
  	h1{
  		span{
@@ -62,8 +64,12 @@ body{
  		}
  	}
  }
+ iframe{
+ 	max-width: 100%!important;
+ }
 
 
  @import "sidebar";
  @import "blog";
  @import "comment";
+ @import "mediaq";

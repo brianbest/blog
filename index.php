@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="container-fluid">
 		<div class="row">
-			<div class="col-md-5">
+			<div class="col-sm-12 col-md-4 col-lg-5">
 				<div class="headInfo">
 					<h1>Brian Best</h1>
 					<h3>developer &amp; founder</h3>
@@ -21,7 +21,7 @@
 					</div>
 				</div>
 			</div>
-			<div class=" col-md-6 blogList">
+			<div class="col-sm-12 col-md-8 col-lg-6 blogList">
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 				<a href="<?php echo get_permalink(); ?>">
 					<article>
