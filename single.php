@@ -15,7 +15,7 @@
 		  </div><!-- /.container-fluid -->
 		</nav>
 		<div class="row">
-			<div class="col-md-offset-3 col-md-6 blog">
+			<div class="col-md-offset-4 col-md-4 blog">
 				<article>
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					<h6><?php the_time('F jS, Y'); ?></h6>
@@ -23,7 +23,7 @@
 					<?php the_content(); ?>
 
 					<div class="closeing row">
-						<div class="me col-md-6">
+						<div class="me col-md-7">
 							<a href="https://about.me/brianbest" target="_blank">
 								<div class="pic">
 								</div>
@@ -33,7 +33,7 @@
 								<h4>Developer &amp; Founder</h4>
 							</div>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-5">
 							<?php
 
 								if ( function_exists( 'sharing_display' ) ) {

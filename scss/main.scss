@@ -29,15 +29,21 @@ body{
  	}
  	a{
  		color:#000;
+ 		&:hover{
+ 			text-decoration: none;
+ 		}
  	}
  }
 
  footer{
+ 	border-top:1px solid #000;
  	margin: 2.5rem 0;
+ 	margin-top: 3rem;
  	
  	form{
  		width: 250px;
  		margin:0 auto;
+ 		margin-top: 1rem;
  		display: block;
  		input[type="text"]{
  			width: 100%;
@@ -60,3 +66,4 @@ body{
 
  @import "sidebar";
  @import "blog";
+ @import "comment";

@@ -1,0 +1,50 @@
+
+//Comment area
+#respond{
+	h3{
+		font-family: "proxima-nova-extra-condensed";
+ 		text-transform: uppercase;
+ 		text-align: center;
+	}
+	#submit{
+		  display: inline-block;
+		  padding: 6px 12px;
+		  margin-bottom: 0;
+		  font-size: 14px;
+		  font-weight: 400;
+		  line-height: 1.42857143;
+		  text-align: center;
+		  white-space: nowrap;
+		  vertical-align: middle;
+		  -ms-touch-action: manipulation;
+		  touch-action: manipulation;
+		  cursor: pointer;
+		  -webkit-user-select: none;
+		  -moz-user-select: none;
+		  -ms-user-select: none;
+		  user-select: none;
+		  background-image: none;
+		  border: 1px solid transparent;
+		  border-radius: 4px;
+
+		  width: 100%;
+		  background-color:#fff;
+		  border-color:#000;
+		  text-transform: lowercase;
+
+	}
+	.comment-subscription-form{
+		display: inline-block;
+		label{
+			font-weight: 300;
+		}
+		
+		margin:0.5rem 0;
+	}
+}
+
+//Share this area
+
+.sd-title{
+	display:none!important;
+}

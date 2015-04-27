@@ -21,7 +21,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6 blogList">
+			<div class="col-md-offset-1 col-md-5 blogList">
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 				<a href="<?php echo get_permalink(); ?>">
 					<article>
