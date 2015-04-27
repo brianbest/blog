@@ -22,6 +22,8 @@ h1, h2 {
   font-weight: 300;
   font-size: 1.2rem;
   font-style: italic; }
+.blogList a {
+  color: #000; }
 
 footer {
   margin: 2.5rem 0; }
