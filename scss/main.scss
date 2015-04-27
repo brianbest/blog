@@ -1,6 +1,7 @@
 body{
   font-family: "proxima-nova", arial;
   font-weight: 300;
+  font-size: 20px;
  }
  h1,h2{
  	font-family: "proxima-nova-extra-condensed";
@@ -8,6 +9,9 @@ body{
  	font-size: 7rem;
  }
 
+p{
+
+}
 
  .blogList{
  	h1{
@@ -22,3 +26,4 @@ body{
 
 
  @import "sidebar";
+ @import "blog";
