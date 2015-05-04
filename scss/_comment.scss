@@ -35,9 +35,10 @@
 	}
 	#comment{
 		max-width: 100%;
+		min-width: 100%;
 	}
 	.comment-subscription-form{
-		display: inline-block;
+		//display: inline-block;
 		label{
 			font-weight: 300;
 		}

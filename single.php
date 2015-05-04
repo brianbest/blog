@@ -17,7 +17,7 @@
 					<?php the_content(); ?>
 
 					<div class="closeing row">
-						<div class="me col-md-7">
+						<div class="me col-sm-7 col-md-7">
 							<a href="https://about.me/brianbest" target="_blank">
 								<div class="pic">
 								</div>
@@ -27,7 +27,7 @@
 								<h4>Developer &amp; Founder</h4>
 							</div>
 						</div>
-						<div class="col-md-5">
+						<div class="col-sm-5 col-md-5">
 							<?php
 
 								if ( function_exists( 'sharing_display' ) ) {

@@ -18,17 +18,29 @@ body{
  	color:#000!important;
  }
 
- .navbar-brand { margin-left: auto; margin-right: auto; }
+ .navbar-brand { 
+ 	  margin-left: auto;
+	  margin-right: auto;
+	  display: block;
+	  text-align: center;
+	  float: none;
+
+ }
+ .navbar-header{
+ 	float:none;
+ }
 
  .blogList{
- 	h1{
- 		span{
+
+  overflow-y: scroll;
+  max-height: 100vh;
+ 	
+ 	span{
  			font-family: "proxima-nova", arial;
   			font-weight: 300;
   			font-size: 1.2rem;
   			font-style: italic;
  		}
- 	}
  	a{
  		color:#000;
  		&:hover{

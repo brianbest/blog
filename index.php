@@ -25,7 +25,8 @@
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 				<a href="<?php echo get_permalink(); ?>">
 					<article>
-						<h1 class="title"><?php the_title(); ?><span><?php the_time('F jS, Y'); ?></span></h1>
+						<h1 class="title"><?php the_title(); ?></h1>
+						<span><?php the_time('F jS, Y'); ?></span>
 						<p><?php the_excerpt(); ?></p>
 					</article>
 				</a>
